@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	vector<vector<int>>interval;
+	int n;
+	cin>>n;
+	for(int i=0;i<n;i++)
+	{
+	cin>>a>>b;
+		vector<int>val;
+		val.push_back(a);
+		val.push_back(b);
+		interval.push_back(val);
+
+		
+	}
+	for(int i=0;i<n;i++)
+	{
+	 cout<<interval[i][0]<<","<<interval[i][1]<<" ";
+	}
+return 0;
+}
